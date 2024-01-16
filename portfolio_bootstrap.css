@@ -1,0 +1,334 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.navbar {
+  background-color: #fff;
+}
+
+.nav-link {
+  color: black;
+  font-size: 1rem;
+  font-weight: 700;
+  cursor: pointer;
+  text-decoration: none;
+  padding: 10px;
+}
+
+.nav-link:hover {
+  color: white;
+  background-color: #000;
+}
+
+.navbar-brand a {
+  font-size: 1.23rem;
+  cursor: pointer;
+  text-decoration: none;
+  font-weight: 800;
+  font-family: brush script mt, cursive;
+}
+
+.main {
+  background-image: url("https://images.unsplash.com/photo-1682685796766-0fddd3e480de?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDF8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
+  background-size: cover;
+  background-position: center;
+  height: 93vh;
+  width: 100vw;
+}
+
+.main h3 {
+  font-size: 5.4rem;
+  font-weight: 700;
+}
+
+.main h6 {
+  font-size: 1.4rem;
+  text-transform: uppercase;
+  line-height: 1;
+  border-bottom: 4px solid rgb(233, 20, 109);
+  width: 220px;
+}
+
+.main .bt1 {
+  height: 44px;
+  width: 110px;
+  border: none;
+  outline: none;
+  background-color: rgb(233, 20, 109);
+  color: #fff;
+  font-weight: 900;
+}
+
+.main .bt1:hover {
+  background-color: rgb(202, 18, 95);
+  transition: 0.5s;
+}
+
+.main .bt2 {
+  height: 44px;
+  width: 110px;
+  border: 3px solid rgb(233, 20, 109);
+  outline: none;
+  background-color: transparent;
+  color: rgb(233, 20, 109);
+  font-weight: 900;
+}
+
+.main .bt2:hover {
+  background-color: rgb(233, 20, 109);
+  color: #fff;
+  transition: 1s;
+}
+
+.about img {
+  height: 100%;
+  box-shadow: 3px 5px 23px 3px rgba(0, 0, 0, 0.57);
+  -webkit-box-shadow: 3px 5px 23px 3px rgba(0, 0, 0, 0.57);
+  -moz-box-shadow: 3px 5px 23px 3px rgba(0, 0, 0, 0.57);
+}
+
+.about-content h1 {
+  font-size: 4.4rem;
+}
+
+.text-uppercase-1 {
+  border-bottom: 4px solid rgb(233, 20, 109);
+  width: 35%;
+}
+
+.progress {
+  background-color: rgb(233, 219, 219);
+  justify-content: flex-start;
+  border-radius: 50px;
+  align-items: center;
+  position: relative;
+  display: flex;
+  height: 25px;
+  width: 100%;
+  margin: 1rem 0;
+  box-shadow: 1px 11px 91px -14px rgba(0, 0, 0, 0.51) inset;
+  -webkit-box-shadow: 1px 11px 91px -14px rgba(0, 0, 0, 0.51) inset;
+  -moz-box-shadow: 1px 11px 91px -14px rgba(0, 0, 0, 0.51) inset;
+}
+
+.pro-value1 {
+  animation: load1 3s normal forwards;
+  border-radius: 50px;
+  background-color: #000;
+  height: 25px;
+  width: 0;
+}
+
+.pro-value2 {
+  animation: load2 3s normal forwards;
+  border-radius: 50px;
+  background-color: #000;
+  height: 25px;
+  width: 0;
+}
+
+.pro-value3 {
+  animation: load3 3s normal forwards;
+  border-radius: 50px;
+  background-color: #000;
+  height: 25px;
+  width: 0;
+}
+
+.pro-value4 {
+  animation: load4 3s normal forwards;
+  border-radius: 50px;
+  background-color: #000;
+  height: 25px;
+  width: 0;
+}
+
+@keyframes load1 {
+  0% {
+    width: 0%;
+  }
+
+  100% {
+    width: 93%;
+  }
+}
+
+@keyframes load2 {
+  0% {
+    width: 0%;
+  }
+
+  100% {
+    width: 70%;
+  }
+}
+
+@keyframes load3 {
+  0% {
+    width: 0%;
+  }
+
+  100% {
+    width: 98%;
+  }
+}
+
+@keyframes load4 {
+  0% {
+    width: 0%;
+  }
+
+  100% {
+    width: 50%;
+  }
+}
+
+.btn1 {
+  height: 40px;
+  width: 145px;
+  outline: none;
+  border: none;
+  background-color: #000;
+  color: #fff;
+}
+
+.btn1:hover {
+  background-color: transparent;
+  color: #000;
+  border: 2px solid #000;
+  transition: 0.5s;
+}
+
+.btn2 {
+  height: 40px;
+  width: 145px;
+  outline: none;
+  border: 2px solid #000;
+  background-color: transparent;
+  color: #000;
+}
+
+.btn2:hover {
+  background-color: #000;
+  color: #fff;
+  border: none;
+  transition: 0.5s;
+}
+
+.card {
+  border: none;
+  outline: none;
+  box-shadow: 0px 9px 66px -1px rgba(0, 0, 0, 0.47);
+  -webkit-box-shadow: 0px 9px 66px -1px rgba(0, 0, 0, 0.47);
+  -moz-box-shadow: 0px 9px 66px -1px rgba(0, 0, 0, 0.47);
+}
+
+.card p {
+  color: grey;
+}
+
+.service h1,
+.portfolio h1,
+.blog h1,
+.contact h1 {
+  font-size: 4.4rem;
+}
+
+.circle {
+  height: 70px;
+  width: 70px;
+  background-color: rgb(207, 207, 207);
+  color: black;
+  padding: 12px;
+  display: inline-block;
+  margin-bottom: 20px;
+  font-size: 30px;
+  border-radius: 50%;
+}
+
+.card:hover .circle {
+  background-color: #000;
+  color: #fff;
+  transition: 0.5s;
+}
+
+.control ul li {
+  padding: 5px 15px;
+  cursor: pointer;
+  letter-spacing: 2px;
+}
+
+.item {
+  position: relative;
+}
+
+.item img {
+  width: 100%;
+  height: 250px;
+}
+
+.item span {
+  position: absolute;
+  top: 42%;
+  left: 45%;
+  font-size: 40px;
+  color: #3b3b3b;
+  cursor: pointer;
+  opacity: 0;
+}
+
+.item:hover span {
+  opacity: 1;
+  transition: 0.5s;
+}
+
+.item:hover {
+  box-shadow: -5px 5px 74px 9px rgba(0, 0, 0, 0.7);
+  -webkit-box-shadow: -5px 5px 74px 9px rgba(0, 0, 0, 0.7);
+  -moz-box-shadow: -5px 5px 74px 9px rgba(0, 0, 0, 0.7);
+  transition: 0.5s;
+}
+
+.item::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 0;
+  opacity: 0;
+  height: 100%;
+  width: 100%;
+  background-color: rgba(238, 235, 239, 0.801);
+}
+
+.item:hover::before {
+  opacity: 1;
+  transition: 0.5s;
+}
+
+.blog .card {
+  width: 300px;
+}
+
+.circle:hover {
+  background-color: #000;
+  color: #fff;
+  transition: 0.5s;
+}
+
+.btn3 {
+  background-color: #000;
+  color: #fff;
+  outline: none;
+  border: none;
+  height: 40px;
+  width: 140px;
+}
+
+.btn3:hover {
+  background-color: transparent;
+  color: #000;
+  transition: 0.5s;
+  border: 2px solid #000;
+}
